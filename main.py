@@ -16,7 +16,10 @@ tmp = r"c:\yyr\tmp"
 logF = r"\yyr\log.txt"
 
 #функция логирования
-def
+def log(text):
+    today = datetime.datetime.today().strftime("%Y/%m/%d %H:%M:%S")
+    with open(logF, mode='a', encoding='utf8') as f:
+        f.write(f"{today}\r\n{str(text)}\r\n")
 
 #функция удаления страрых файлов
 def del_old():
