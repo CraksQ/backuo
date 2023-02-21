@@ -16,7 +16,7 @@ tmp = r"c:\yyr\tmp"
 logF = r"\yyr\log.txt"
 
 #функция логирования
-
+def
 
 #функция удаления страрых файлов
 def del_old():
